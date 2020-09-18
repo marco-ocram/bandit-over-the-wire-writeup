@@ -91,4 +91,8 @@ Z)========== is
 ### Password - truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 #### grep followed by the character will simply do the work. strings is used to find only the readable text in the file
 
+## Level 10-11
+#### bandit10@bandit:~$ cat data.txt | base64 -d
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+#### base64 command has variety of options. -d decodes the file to string
 
