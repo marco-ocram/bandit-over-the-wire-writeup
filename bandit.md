@@ -80,6 +80,15 @@ millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 data.txt
 #### bandit8@bandit:~$ cat data.txt | sort | uniq -u
 ### Password - UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
-### sort will arrange the text lexicographically. uniq will detect the adjacent repeated lines in provided text. -u will report the unique lines
+#### sort will arrange the text lexicographically. uniq will detect the adjacent repeated lines in provided text. -u will report the unique lines
+
+## Level 9-10
+#### bandit9@bandit:~$ strings data.txt | grep ==
+========== the*2i"4
+========== password
+Z)========== is
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+### Password - truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+#### grep followed by the character will simply do the work. strings is used to find only the readable text in the file
 
 
