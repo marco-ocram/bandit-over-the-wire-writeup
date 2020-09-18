@@ -96,3 +96,8 @@ Z)========== is
 The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 #### base64 command has variety of options. -d decodes the file to string
 
+## Level 11-12
+#### bandit11@bandit:~$ cat data.txt | tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+#### tr command stands for translate. It does the transformation according to the specified format
+
