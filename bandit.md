@@ -43,3 +43,15 @@
 #### bandit4@bandit:~/inhere$ cat ./-file07
 ### Password - koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ### find the files for ASCII text 
+
+
+## Level 5-6
+#### bandit5@bandit:~$ ls
+inhere
+#### bandit5@bandit:~$ find -type f -size 1033c
+./inhere/maybehere07/.file2
+#### bandit5@bandit:~$ cat ./inhere/maybehere07/.file2
+### Password - DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+### -size finds the matching size where ##c stands for bytes
+
+
