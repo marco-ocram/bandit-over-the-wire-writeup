@@ -66,3 +66,12 @@ total 0
 ### / for finding in all server. 
 ### 2>/dev/null
 #### 2 directs the stderr. > is for directing the mentioned output. /dev/null is sort of a dumping place for all error files. Here you will find a lot of files with the error Permission Denied. Command will work even without the error detection
+
+## Level 7-8
+#### bandit7@bandit:~$ ls
+data.txt
+#### bandit7@bandit:~$ cat data.txt | grep millionth
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+### Password vX2JJa4CFALtqS87jk27qwqGhBM9plV
+### | is the pipe feature fo running multiple commands simultaneously. grep finds the specified string and prints the sentence
+
