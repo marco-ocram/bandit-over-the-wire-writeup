@@ -54,4 +54,15 @@ inhere
 ### Password - DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ### -size finds the matching size where ##c stands for bytes
 
-
+## Level 6-7
+#### bandit6@bandit:~$ ls -l
+total 0
+#### bandit6@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  .profile
+#### bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+#### bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password 
+### Password - HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+### / for finding in all server. 
+### 2>/dev/null
+#### 2 directs the stderr. > is for directing the mentioned output. /dev/null is sort of a dumping place for all error files. Here you will find a lot of files with the error Permission Denied. Command will work even without the error detection
