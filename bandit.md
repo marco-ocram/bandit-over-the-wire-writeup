@@ -75,3 +75,11 @@ millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ### Password vX2JJa4CFALtqS87jk27qwqGhBM9plV
 ### | is the pipe feature fo running multiple commands simultaneously. grep finds the specified string and prints the sentence
 
+## Level 8-9
+#### bandit8@bandit:~$ ls
+data.txt
+#### bandit8@bandit:~$ cat data.txt | sort | uniq -u
+### Password - UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+### sort will arrange the text lexicographically. uniq will detect the adjacent repeated lines in provided text. -u will report the unique lines
+
+
