@@ -18,3 +18,9 @@
 #### cat ./spaces\ in\ this\ filename
 ### add backslash for spaces
 ### Password - UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+## Level 3-4
+#### ls --all
+#### cat .hidden
+### ls doesn't give all files, so run ls --all and you'll get even the hidden files
+### Password - pIwrPrtPN36QITSp3EQaw936yaFoFgAB
