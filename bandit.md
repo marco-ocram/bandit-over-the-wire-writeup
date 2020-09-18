@@ -73,5 +73,5 @@ data.txt
 #### bandit7@bandit:~$ cat data.txt | grep millionth
 millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ### Password vX2JJa4CFALtqS87jk27qwqGhBM9plV
-### | is the pipe feature fo running multiple commands simultaneously. grep finds the specified string and prints the sentence
+#### | is the pipe feature fo running multiple commands simultaneously. grep finds the specified string and prints the sentence
 
