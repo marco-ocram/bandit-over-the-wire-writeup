@@ -12,3 +12,9 @@
 #### cat ./-
 ### The dashed file can be accesses by using ./ as a prefix
 ### Password - CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+## Level 2-3
+#### ls
+#### cat ./spaces\ in\ this\ filename
+### add backslash for spaces
+### Password - UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
