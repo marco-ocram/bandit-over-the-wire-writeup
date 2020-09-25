@@ -55,5 +55,19 @@ bandit17@bandit:~$ diff passwords.new passwords.old
 42c42
 < kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 >w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
-### Current Password - kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
-### New Password - w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
+### New Password - kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+### Current Password - w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
+
+## Level 18-19
+#### Actually difficult one.
+#### You have to skip the bashrc file. You have to get the access before it executes. Instead run `/bin/bash`
+>bandit17@bandit:~$ ssh bandit18@localhost /bin/bash
+
+>bandit18@localhost's password: 
+ls
+readme
+cat readme
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+#### Password - IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+
