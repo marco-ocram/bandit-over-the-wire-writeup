@@ -70,4 +70,37 @@ cat readme
 IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 #### Password - IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
+## Level 19-20
+#### `setup id` is for files with extra privileges. Simply use the id and run it on the bandit20 file
+>bandit19@bandit:~$ ls
+bandit20-do
+>bandit19@bandit:~$ ls -l bandit20-do 
+-rwsr-x--- 1 bandit20 bandit19 7296 May  7 20:14 bandit20-do
+
+>bandit19@bandit:~$ file bandit20-do 
+bandit20-do: setuid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=8e941f24b8c5cd0af67b22b724c57e1ab92a92a1, not stripped
+
+>bandit19@bandit:~$ ./bandit20-do cat /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+### Password - GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+## Level 20 - 21
+#### Connection has to be made for any random port `10000`. Different tabs are needed for listening and sending data. suconnect connects to a specified port and does the work. netcat is used for localhost connection and receives the data. 
+`Tab 1`
+>bandit20@bandit:~$ ls
+suconnect
+
+>bandit20@bandit:~$ ./suconnect 
+Usage: ./suconnect <portnumber>
+This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
+
+>bandit20@bandit:~$ nc -l localhost -p 10000 < /etc/bandit_pass/bandit20
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+`Tab 2`
+>bandit20@bandit:~$ ./suconnect 10000
+Read: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+Password matches, sending next password
+
+
 
